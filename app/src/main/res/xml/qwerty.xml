@@ -1,0 +1,62 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp"
+    >
+    <Row>
+        <Key android:codes="0x661" android:keyLabel="١" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x662" android:keyLabel="٢"/>
+        <Key android:codes="0x663" android:keyLabel="٣"/>
+        <Key android:codes="0x664" android:keyLabel="٤"/>
+        <Key android:codes="0x665" android:keyLabel="٥"/>
+        <Key android:codes="54" android:keyLabel="6"/>
+        <Key android:codes="55" android:keyLabel="7"/>
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9"/>
+        <Key android:codes="48" android:keyLabel="0" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="113" android:keyLabel="q" android:keyEdgeFlags="left"/>
+        <Key android:codes="119" android:keyLabel="w"/>
+        <Key android:codes="101" android:keyLabel="e"/>
+        <Key android:codes="114" android:keyLabel="r"/>
+        <Key android:codes="116" android:keyLabel="t"/>
+        <Key android:codes="121" android:keyLabel="y"/>
+        <Key android:codes="117" android:keyLabel="u"/>
+        <Key android:codes="105" android:keyLabel="i"/>
+        <Key android:codes="111" android:keyLabel="o"/>
+        <Key android:codes="112" android:keyLabel="p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="97" android:keyLabel="a" android:keyEdgeFlags="left"/>
+        <Key android:codes="115" android:keyLabel="s"/>
+        <Key android:codes="100" android:keyLabel="d"/>
+        <Key android:codes="102" android:keyLabel="f"/>
+        <Key android:codes="103" android:keyLabel="g"/>
+        <Key android:codes="0x647" android:keyLabel="ه"/>
+        <Key android:codes="0x698" android:keyLabel="ژ"/>
+        <Key android:codes="0x6a9" android:keyLabel="ک"/>
+        <Key android:codes="0x644" android:keyLabel="ل"/>
+        <Key android:codes="35,64" android:keyLabel="\# \@" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="-1" android:keyLabel="CAPS" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x632" android:keyLabel="ز"/>
+        <Key android:codes="0x62e" android:keyLabel="خ"/>
+        <Key android:codes="0x62c" android:keyLabel="ج"/>
+        <Key android:codes="0x6a4" android:keyLabel="ڤ"/>
+        <Key android:codes="0x628" android:keyLabel="ب"/>
+        <Key android:codes="0x646" android:keyLabel="ن"/>
+        <Key android:codes="0x645" android:keyLabel="م"/>
+        <Key android:codes="46" android:keyLabel="."/>
+        <Key android:codes="63,33,58" android:keyLabel="\? ! :" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p"  android:keyEdgeFlags="left"/>
+        <Key android:codes="47" android:keyLabel="/" android:keyWidth="10%p" />
+        <Key android:codes="32" android:keyLabel="بۆشای" android:keyWidth="40%p" android:isRepeatable="true"/>
+        <Key android:codes="-5" android:keyLabel="سڕینەوە" android:keyWidth="20%p" android:isRepeatable="true"/>
+        <Key android:codes="-4" android:keyLabel="باشە" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>

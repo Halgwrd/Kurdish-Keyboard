@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Androkurd_Keyboard</string>
+    <string name="keyboard_ime">AndoKurd_Key</string>
+    <string name="subtype_ku_en">kurdish And english</string>
+</resources>
